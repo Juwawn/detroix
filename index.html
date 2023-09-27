@@ -8,197 +8,246 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500&display=swap" rel="stylesheet">
     <!-- <link rel="stylesheet" href="css/mpf.css"> -->
     <!-- <link rel="stylesheet" href="css/positions.css"> -->
-    <link rel="stylesheet" href="css/flexbox.css">
+    <!-- <link rel="stylesheet" href="css/flexbox.css"> -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Detroix</title>
 </head>
 <body>
     <header class="header" id="header">
-        <section class="section top-header">
-            <div class="inner">
-                <p class="th-text">
-                    <a href="#" class="th-link">www.demolink.org</a>
-                </p>
-                <ul class="th-list">
-                    <li class="th-item">
-                        <a href="#" class="th-link">support</a>
-                    </li>
-                    <li class="th-item">
-                        <a href="#" class="th-link">faqs</a>
-                    </li>
-                    <li class="th-item">
-                        <a href="#" class="th-link">sitemap</a>
-                    </li>
-                    <li class="th-item">
-                        <a href="#" class="th-link">help</a>
-                    </li>
-                </ul>
-                <!-- <div class="clear"></div> -->
+        <section class="section top-header h-25 pt-3">
+            <div class="container">
+                <div class="row"> 
+                    <!-- row is 12 across BaaaaaaaaaaaaaKa -->
+                    <!-- <div class="inner"> -->
+                        <div class="col-lg-8">
+                            <p class="th-text text-uppercase">
+                                <a href="#" class="th-link text-decoration-none text-light-emphasis">www.demolink.org</a>
+                            </p>
+                        </div>
+                        <div class="col-lg-4">
+                            <ul class="th-list text-uppercase top-nav nav justify-content-around">
+                                <li class="th-item border border-light-subtle border border-start-0 border border-top-0 border border-bottom-0 pe-2">
+                                    <a href="#" class="th-link text-decoration-none text-light-emphasis">support</a>
+                                </li>
+                                <li class="th-item border border-light-subtle border border-start-0 border border-top-0 border border-bottom-0 pe-2">
+                                    <a href="#" class="th-link text-decoration-none text-light-emphasis">faqs</a>
+                                </li>
+                                <li class="th-item border border-light-subtle border border-start-0 border border-top-0 border border-bottom-0 pe-2">
+                                    <a href="#" class="th-link text-decoration-none text-light-emphasis">sitemap</a>
+                                </li>
+                                <li class="th-item">
+                                    <a href="#" class="th-link text-decoration-none text-light-emphasis">help</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- <div class="clear"></div> -->
+                    <!-- </div> -->
+                </div>
             </div>
         </section>
         <section class="section bottom-header">
-            <div class="inner">
-                <h1 class="logo">
-                    <a href="index.html" class="logo-link">
-                        <img src="media/logo.jpg" alt="Detroix logo" class="logo-img">
-                    </a>
-                </h1>
-                <nav class="nav">
-                    <ul class="nav-list">
-                        <li class="nav-item">
-                            <a href="" class="nav-link">home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link">about</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link">services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link">faqs</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link">contacts</a>
-                        </li>
-                    </ul>
-                </nav>
-                <!-- <div class="clear"></div> -->
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <h1 class="logo">
+                            <a href="index.html" class="logo-link">
+                                <img src="media/logo.jpg" alt="Detroix logo" class="logo-img w-25">
+                            </a>
+                        </h1>
+                    </div>
+                        <!-- <div class="inner"> -->
+                    <div class="col-lg-4">
+                        <nav class="nav">
+                            <ul class="nav-list nav justify-content-around text-capitalize">
+                                <li class="nav-item">
+                                    <a href="" class="nav-link">home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link ">about</a>
+                                </li>
+                                <li class="nav-item bg-primary-subtle">
+                                    <a href="" class="nav-link  rounded-5">services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link">faqs</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link">contacts</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <!-- <div class="clear"></div> -->
+                    </div>
+                        <!-- </div> -->
+                    </div>
             </div>
         </section>
     </header>
     <main class="main" id="main">
         <section class="section branding">
-            <div class="inner">
-                <img src="media/hero.jpg" alt="Think big. Win the world. Click to read more." class="hero-img">
-                <div class="sliders">
-                    <div class="slider" id="slider1"></div>
-                    <div class="slider" id="slider2"></div>
-                    <div class="slider" id="slider3"></div>
-                    <!-- <div class="clear"></div> -->
+            <div class="container mt-5">
+                <div class="row">
+                    <!-- <div class="inner"> -->
+                        <img src="media/hero.jpg" alt="Think big. Win the world. Click to read more." class="hero-img rounded-5">
+                        <!-- <div class="row"> -->
+                            <div class="sliders nav justify-content-center pt-2 ">
+                                <div class="slider me-1" id="slider1"></div>
+                                <div class="slider me-1" id="slider2"></div>
+                                <div class="slider" id="slider3"></div>
+                                <!-- <div class="clear"></div> -->
+                            </div>
+                        <!-- </div> -->
+                    <!-- </div> -->
                 </div>
             </div>
         </section>
         <section class="section content">
-            <div class="inner">
-                <div class="content-box">
-                    <h2 class="content-h2" id="smart">smart</h2>
-                    <img src="media/smart.jpg" alt="Three puzzle pieces" class="content-img" id="puzzle">
-                    <p class="content-text" id="p1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit iusto ipsa harum veritatis velit ad nisi, reprehenderit deserunt voluptatem delectus totam at exercitationem laboriosam! Nam, voluptatem repellendus.</p>
-                    <label for="moreBtn1">
-                        <button class="more-btn" id="moreBtn1">more</button>
-                    </label>
+            <div class="container mt-5 mb-5 border border-light-subtle border border-bottom-0 border border-end-0 border border-start-0">
+                <div class="row">
+                    <!-- <div class="inner"> -->
+                        <div class="col-lg-4">
+                            <div class="content-box pt-5 px-2">
+                                <h2 class="content-h2 text-uppercase fs-1" id="smart">smart</h2>
+                                <img src="media/smart.jpg" alt="Three puzzle pieces" class="content-img pt-4 w-100" id="puzzle">
+                                <p class="content-text pt-4 lh-lg" id="p1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit iusto ipsa harum veritatis velit ad nisi, reprehenderit deserunt voluptatem delectus totam at exercitationem laboriosam! Nam, voluptatem repellendus.</p>
+                                <label for="moreBtn1">
+                                    <button class="more-btn text-uppercase" id="moreBtn1">more</button>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-4 border border-light-subtle border border-top-0 border border-bottom-0">
+                            <div class="content-box pt-5 px-2">
+                                <h2 class="content-h2 text-uppercase fs-1" id="strong">strong</h2>
+                                <img src="media/strong.jpg" alt="A hand holding a small plant" class="content-img pt-4 w-100" id="plant">
+                                <p class="content-text pt-4 lh-lg" id="p2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit iusto ipsa harum veritatis velit ad nisi, reprehenderit deserunt voluptatem delectus totam at exercitationem laboriosam! Nam, voluptatem repellendus.</p>
+                                <label for="moreBtn2">
+                                    <button class="more-btn text-uppercase" id="moreBtn2">more</button>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="content-box pt-5 px-2">
+                                <h2 class="content-h2 text-uppercase fs-1" id="stable">stable</h2>
+                                <img src="media/stable.jpg" alt="A maze diagram" class="content-img pt-4 w-100" id="maze">
+                                <p class="content-text pt-4 lh-lg" id="p3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit iusto ipsa harum veritatis velit ad nisi, reprehenderit deserunt voluptatem delectus totam at exercitationem laboriosam! Nam, voluptatem repellendus.</p>
+                                <label for="moreBtn3">
+                                    <button class="more-btn text-uppercase" id="moreBtn3">more</button>
+                                </label>
+                            </div>
+                        </div>
+                        <!-- <div class="clear"></div> -->
+                    <!-- </div> -->
                 </div>
-                <div class="content-box">
-                    <h2 class="content-h2" id="strong">strong</h2>
-                    <img src="media/strong.jpg" alt="A hand holding a small plant" class="content-img" id="plant">
-                    <p class="content-text" id="p2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit iusto ipsa harum veritatis velit ad nisi, reprehenderit deserunt voluptatem delectus totam at exercitationem laboriosam! Nam, voluptatem repellendus.</p>
-                    <label for="moreBtn2">
-                        <button class="more-btn" id="moreBtn2">more</button>
-                    </label>
-                </div>
-                <div class="content-box">
-                    <h2 class="content-h2" id="stable">stable</h2>
-                    <img src="media/stable.jpg" alt="A maze diagram" class="content-img" id="maze">
-                    <p class="content-text" id="p3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit iusto ipsa harum veritatis velit ad nisi, reprehenderit deserunt voluptatem delectus totam at exercitationem laboriosam! Nam, voluptatem repellendus.</p>
-                    <label for="moreBtn3">
-                        <button class="more-btn" id="moreBtn3">more</button>
-                    </label>
-                </div>
-                <!-- <div class="clear"></div> -->
             </div>
         </section>
     </main>
     <footer class="footer" id="footer">
-        <section class="section top-section">
-            <div class="inner">
-                <div class="footer-div services-div">
-                    <h2 class="footer-h2">services</h2>
-                    <ul class="services-list">
-                        <li class="services-item">
-                            <a href="#" class="services-link">Lorem ipsum dolor sit.</a>
-                        </li>
-                        <li class="services-item">
-                            <a href="#" class="services-link">Lorem ipsum dolor sit.</a>
-                        </li>
-                        <li class="services-item">
-                            <a href="#" class="services-link">Lorem ipsum dolor sit.</a>
-                        </li>
-                        <li class="services-item">
-                            <a href="#" class="services-link">Lorem ipsum dolor sit.</a>
-                        </li>
-                        <li class="services-item">
-                            <a href="#" class="services-link">Lorem ipsum dolor sit.</a>
-                        </li>
-                        <li class="services-item">
-                            <a href="#" class="services-link">Lorem ipsum dolor sit.</a>
-                        </li>
-                        <li class="services-item">
-                            <a href="#" class="services-link">Lorem ipsum dolor sit.</a>
-                        </li>
-                        <li class="services-item">
-                            <a href="#" class="services-link">Lorem ipsum dolor sit.</a>
-                        </li>
-                    </ul>
-                    <button class="more-btn" id="moreBtn4">more</button>
+        <section class="section top-section pt-4">
+            <div class="container mt-5">
+                <div class="row">
+                    <!-- <div class="inner"> -->
+                        <div class="col-4 h-100">
+                            <div class="footer-div services-div">
+                                <h2 class="footer-h2 text-uppercase fs-1 text-light">services</h2>
+                                <ul class="services-list lh-lg pt-5">
+                                    <li class="services-item">
+                                        <a href="#" class="services-link">Lorem ipsum dolor sit.</a>
+                                    </li>
+                                    <li class="services-item">
+                                        <a href="#" class="services-link">Lorem ipsum dolor sit.</a>
+                                    </li>
+                                    <li class="services-item">
+                                        <a href="#" class="services-link">Lorem ipsum dolor sit.</a>
+                                    </li>
+                                    <li class="services-item">
+                                        <a href="#" class="services-link">Lorem ipsum dolor sit.</a>
+                                    </li>
+                                    <li class="services-item">
+                                        <a href="#" class="services-link">Lorem ipsum dolor sit.</a>
+                                    </li>
+                                    <li class="services-item">
+                                        <a href="#" class="services-link">Lorem ipsum dolor sit.</a>
+                                    </li>
+                                    <li class="services-item">
+                                        <a href="#" class="services-link">Lorem ipsum dolor sit.</a>
+                                    </li>
+                                    <li class="services-item">
+                                        <a href="#" class="services-link">Lorem ipsum dolor sit.</a>
+                                    </li>
+                                </ul>
+                                <button class="more-btn text-uppercase" id="moreBtn4">more</button>
+                            </div>
+                        </div>
+                        <div class="col-4 h-100">
+                            <div class="footer-div opp-div">
+                                <h2 class="footer-h2 text-uppercase fs-1 text-light">opportunities</h2>
+                                <ul class="opp-list pt-5">
+                                    <li class="opp-item">
+                                        <h3 class="footer-h3 fs-5 text-light">Lorem ipsum dolor sit.</h3>
+                                        <p class="opp-text lh-base fs-6 text-light-emphasis">Lolgrem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt iusto perspiciatis veritatis voluptas error laborum ad assumenda, repudiandae qui minus.</p>
+                                    </li>
+                                    <li class="opp-item">
+                                        <h3 class="footer-h3 fs-5 text-light">Lorem ipsum dolor sit.</h3>
+                                        <p class="opp-text lh-base fs-6 text-light-emphasis">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt iusto perspiciatis veritatis voluptas error laborum ad assumenda, repudiandae qui minus.</p>
+                                    </li>
+                                </ul>
+                                <button class="more-btn text-uppercase" id="moreBtn5">more</button>
+                            </div>
+                        </div>
+                        <div class="col-4 h-100">
+                            <div class="footer-div news-div">
+                                <h2 class="footer-h2 text-uppercase text-light">news</h2>
+                                <ul class="news-list pt-5 list-unstyled">
+                                    <li class="news-item">
+                                        <div class="date-div" id="date1">
+                                            <span class="day-span">21</span>
+                                            <span class="month-span text-uppercase">nov</span>
+                                        </div>
+                                        <div class="news-block">
+                                            <h3 class="footer-h3 fs-5 text-white">Lorem, ipsum dolor.</h3>
+                                            <p class="news-text fs-6 text-light-emphasis">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, cupiditate!</p>
+                                        </div>
+                                        <!-- <div class="clear"></div> -->
+                                    </li>
+                                    <li class="news-item">
+                                        <div class="date-div" id="date2">
+                                            <span class="day-span">09</span>
+                                            <span class="month-span text-uppercase">nov</span>
+                                        </div>
+                                        <div class="news-block">
+                                            <h3 class="footer-h3 fs-5 text-white">Lorem, ipsum dolor.</h3>
+                                            <p class="news-text fs-6 text-light-emphasis">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, cupiditate!</p>
+                                        </div>
+                                        <!-- <div class="clear"></div> -->
+                                    </li>
+                                    <li class="news-item">
+                                        <div class="date-div" id="date3">
+                                            <span class="day-span">17</span>
+                                            <span class="month-span text-uppercase">nov</span>
+                                        </div>
+                                        <div class="news-block">
+                                            <h3 class="footer-h3 fs-5 text-white">Lorem, ipsum dolor.</h3>
+                                            <p class="news-text fs-6 text-light-emphasis">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, cupiditate!</p>
+                                        </div>
+                                        <!-- <div class="clear"></div> -->
+                                    </li>
+                                </ul>
+                                <button class="more-btn text-uppercase" id="moreBtn6">more</button>
+                            </div>
+                        </div>
+                        <!-- <div class="clear"></div> -->
+                    <!-- </div> -->
                 </div>
-                <div class="footer-div opp-div">
-                    <h2 class="footer-h2">opportunities</h2>
-                    <ul class="opp-list">
-                        <li class="opp-item">
-                            <h3 class="footer-h3">Lorem ipsum dolor sit.</h3>
-                            <p class="opp-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt iusto perspiciatis veritatis voluptas error laborum ad assumenda, repudiandae qui minus.</p>
-                        </li>
-                        <li class="opp-item">
-                            <h3 class="footer-h3">Lorem ipsum dolor sit.</h3>
-                            <p class="opp-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt iusto perspiciatis veritatis voluptas error laborum ad assumenda, repudiandae qui minus.</p>
-                        </li>
-                    </ul>
-                    <button class="more-btn" id="moreBtn5">more</button>
-                </div>
-                <div class="footer-div news-div">
-                    <h2 class="footer-h2">news</h2>
-                    <ul class="news-list">
-                        <li class="news-item">
-                            <div class="date-div" id="date1">
-                                <span class="day-span">21</span>
-                                <span class="month-span">nov</span>
-                            </div>
-                            <div class="news-block">
-                                <h3 class="footer-h3">Lorem, ipsum dolor.</h3>
-                                <p class="news-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, cupiditate!</p>
-                            </div>
-                            <!-- <div class="clear"></div> -->
-                        </li>
-                        <li class="news-item">
-                            <div class="date-div" id="date2">
-                                <span class="day-span">09</span>
-                                <span class="month-span">nov</span>
-                            </div>
-                            <div class="news-block">
-                                <h3 class="footer-h3">Lorem, ipsum dolor.</h3>
-                                <p class="news-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, cupiditate!</p>
-                            </div>
-                            <!-- <div class="clear"></div> -->
-                        </li>
-                        <li class="news-item">
-                            <div class="date-div" id="date3">
-                                <span class="day-span">17</span>
-                                <span class="month-span">nov</span>
-                            </div>
-                            <div class="news-block">
-                                <h3 class="footer-h3">Lorem, ipsum dolor.</h3>
-                                <p class="news-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, cupiditate!</p>
-                            </div>
-                            <!-- <div class="clear"></div> -->
-                        </li>
-                    </ul>
-                    <button class="more-btn" id="moreBtn6">more</button>
-                </div>
-                <!-- <div class="clear"></div> -->
             </div>
         </section>
         <section class="section bottom-section">
-            <div class="inner">
-                <p class="colophon">detroix &copy; 2023 &middot; <a href="#">privacy policy</a></p>
+            <div class="container">
+                <div class="row pt-2">
+                    <!-- <div class="inner"> -->
+                        <p class="colophon text-capitalize text-light-emphasis">detroix &copy; 2023 &middot; <a href="#" class="text-decoration-none text-light-emphasis">privacy policy</a></p>
+                    <!-- </div> -->
+                </div>
             </div>
         </section>
     </footer>

@@ -1,0 +1,131 @@
+:root {
+    --blue: #131c29;
+    --orange: #ff8901;
+    --bg: #f5f5f7;
+    --btn: #213349;
+    --date1: #be8442;
+    --date2: #bc6142;
+    --date3: #bd425e;
+    --bottomSec: #0b1016;
+    --font: 'Oswald', sans-serif;
+}
+
+* {box-sizing: border-box;}
+
+
+.top-header {
+    /* border: 1px solid green; */
+    width: 100%;
+    height: 30px;
+    background-color: var(--blue);
+}
+
+.nav-link:hover {
+    background-color: var(--orange);
+}
+
+.slider {
+    background-color: #777;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.slider:hover {
+    background-color: var(--orange);
+}
+
+.top-section {
+    /* border: 1px solid black; */
+    background-color: var(--blue);
+    background-image: radial-gradient(
+        at top center,
+        #37577d,
+        var(--blue) 30%
+    );
+    height: 620px;
+}
+
+.services-list {
+    list-style-image: url(../media/chat.png);
+}
+
+.services-link {
+    color: var(--bg);
+    text-decoration: none;
+}
+
+
+.more-btn {
+    color: var(--bg);
+    background-color: var(--bottomSec);
+    border-radius: 15%;
+    font-size: 20px;
+}
+
+.more-btn:hover {
+    background-color: var(--orange);
+}
+
+.footer-div {
+    position: relative;
+}
+
+#moreBtn4 {
+    position: absolute;
+    top: 480px;
+}
+
+#moreBtn5 {
+    position: absolute;
+    top: 480px;
+}
+
+#moreBtn6 {
+    position: absolute;
+    top: 480px;
+}
+
+.date-div {
+    border: 1px solid black;
+    margin-right: 30px;
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+}
+
+.day-span, .month-span {
+    display: block;
+    margin: 0;
+    color: var(--bg);
+    text-align: center;
+}
+
+.day-span {
+    font-size: 26px;
+}
+
+.month-span {
+    text-transform: uppercase;
+}
+
+#date1 {
+    background-color: var(--date1);
+}
+
+#date2 {
+    background-color: var(--date2);
+}
+
+#date3 {
+    background-color: var(--date3);
+}
+
+
+.bottom-section {
+    background-color: var(--bottomSec);
+    height: 110px;
+    /* position: relative; */
+}
+
